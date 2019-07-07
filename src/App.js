@@ -8,13 +8,13 @@ function App() {
   return (
     <div className="App">
       <Layout>
-          <Header transparent={true} title="Wrap Sharks" scroll>
+          <Header transparent={true} title={<Link className="appHeader" to="/">Wrap Sharks</Link>} scroll>
               <Navigation>
               {/* <Link style={{fontSize: '0.7em'}} to="/about">About</Link> */}
                 <Link style={{fontSize: '0.7em'}} to="/contact">Contact</Link>
               </Navigation>
           </Header>
-          <Drawer title="Wrap Sharks">
+          <Drawer title={<Link style={{textDecoration: 'none', color: '#555'}} to="/">Wrap Sharks</Link>}>
               <Navigation>
                 {/* <Link to="/about">About</Link> */}
                 <Link to="/contact">Contact</Link>
