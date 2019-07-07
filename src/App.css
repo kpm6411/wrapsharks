@@ -27,13 +27,12 @@
 }
 
 .logo {
-  width: 80%;
+  width: 100%;
 }
 
 .banner {
   background-color: black;
   opacity: 0.8;
-
   width: 75%;
   margin: auto;
   border-radius: 10px;
@@ -55,6 +54,7 @@
   color: white;
   font-size: 1em;
   padding: 0.5em;
+  line-height: 1em;
 }
 
 .social-links {
@@ -110,6 +110,8 @@
 .contact-grid p {
   font-family: sans-serif;
   font-weight: bold;
+  font-size: 0.65em;
+  margin-top: 2em;
 }
 
 .contact-grid hr {

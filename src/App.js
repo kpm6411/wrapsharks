@@ -10,13 +10,13 @@ function App() {
       <Layout>
           <Header transparent={true} title="Wrap Sharks" scroll>
               <Navigation>
-                <Link style={{fontSize: '0.7em'}} to="/about">About</Link>
+              {/* <Link style={{fontSize: '0.7em'}} to="/about">About</Link> */}
                 <Link style={{fontSize: '0.7em'}} to="/contact">Contact</Link>
               </Navigation>
           </Header>
           <Drawer title="Wrap Sharks">
               <Navigation>
-                <Link to="/about">About</Link>
+                {/* <Link to="/about">About</Link> */}
                 <Link to="/contact">Contact</Link>
               </Navigation>
           </Drawer>
@@ -27,7 +27,7 @@ function App() {
             <FooterSection className="appFooter" logo="Wrap Sharks">
                 <FooterLinkList>
                   <a href="/">Home</a>
-                  <a href="/about">About</a>
+                  {/* <a href="/about">About</a> */}
                   <a href="/contact">Contact</a>
                 </FooterLinkList>
             </FooterSection>

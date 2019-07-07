@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
-import { Grid, Cell, List, ListItem, ListItemContent } from 'react-mdl';
+import { Grid, Cell } from 'react-mdl';
+
+const logo = require('../img/WrapSharks.jpg');
 
 class Contact extends Component {
   render() {
@@ -7,24 +9,23 @@ class Contact extends Component {
       <div className='contact-body'>
         <Grid className='contact-grid' style={{ marginTop: '20px', paddingBottom: '1.25em' }}>
           <Cell col={4}>
-            <h3>Wrap Sharks</h3>
             <img
-              src="https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fsavannahisamazing.files.wordpress.com%2F2011%2F04%2F10658-2-sharks_-_4.jpg&f=1"
-              alt="portrait"
-              style={{ height: '8em' }}
+              src={logo}
+              alt="logo"
+              style={{ height: '11em' }}
             />
           </Cell>
           <Cell col={8}>
-            <h2>Contact Me</h2>
+            <h2>Contact Us</h2>
             <hr/>
             <div className="contact-list">
-              <List>
-                <ListItem>
-                  <ListItemContent style={{ fontSize: '1.5em', fontFamily: 'sans-serif', justifyContent: 'center' }}>
-                    email
-                  </ListItemContent>
-                </ListItem>
-              </List>
+              <p>Southern Printing & Graphics<br/>
+                5424 Hixson Pike<br/>
+                Hixson, TN 37343<br/>
+                <br/>
+                Phone: 423-843-3182<br/>
+                Fax: 423-843-1940<br/>
+                Email: southernpg@cs.com</p>
             </div>
           </Cell>
         </Grid>

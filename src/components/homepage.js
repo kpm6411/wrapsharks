@@ -1,20 +1,23 @@
 import React, { Component } from 'react';
-import { Grid, Cell } from 'react-mdl';
+
+const logo = require('../img/Wrap_Sharks_Horizontal_logo.jpg');
 
 class Homepage extends Component {
   render() {
     return(
       <div>
-        <Grid className="grid">
-          <Cell col={12}>
-            <img src="https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fimage.motortrend.com%2Ff%2Feditorial%2Fsema-2007-the-good-the-bad-and-the-ugly%2F7240928%2Bw700%2Bcr1%2Bre0%2Bar1%2Fflying-tiger-trans-am.jpg&f=1" alt="Logo" className="logo" />
-            <div className="banner">
-              <h1>Wrap Sharks</h1>
-              <hr/>
-              <p>Adverize your company with a car wrap!</p>
-            </div>
-          </Cell>
-        </Grid>
+        <img src={logo} alt="Logo" className="logo" style={{width: '100%', border: '0.5em solid white'}}/>
+        <div className="banner">
+          <h1>Wrap Sharks</h1>
+          <hr/>
+          <p>Southern Printing & Graphics<br/>
+            5424 Hixson Pike<br/>
+            Hixson, TN 37343<br/>
+            <br/>
+            Phone: 423-843-3182<br/>
+            Fax: 423-843-1940<br/>
+            Email: southernpg@cs.com</p>
+        </div>
       </div>
     )
   }
