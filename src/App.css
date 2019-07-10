@@ -26,8 +26,9 @@
   justify-content: center;
 }
 
-.logo {
-  width: 100%;
+.jumbo {
+  width: 70%;
+  border: 5px solid white;
 }
 
 .banner {
@@ -128,6 +129,11 @@
 @media only screen and (max-width: 800px) {
   .appFooter {
     font-size: 1em;
+  }
+
+  .jumbo {
+    width: 100%;
+    border: 5px solid white;
   }
 
   .social-links i {

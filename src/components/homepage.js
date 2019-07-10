@@ -6,7 +6,9 @@ class Homepage extends Component {
   render() {
     return(
       <div>
-        <img src={logo} alt="Logo" className="logo" style={{width: '100%', border: '0.5em solid white'}}/>
+        <div style={{ width: '100%', background: 'white' }}>
+          <img src={logo} alt="Logo" className="jumbo"/>
+        </div>
         <div className="banner">
           <h1>Wrap Sharks</h1>
           <hr/>
