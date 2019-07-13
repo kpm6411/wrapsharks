@@ -12,7 +12,7 @@ class Homepage extends Component {
         <div className="banner">
           <h1>Wrap Sharks</h1>
           <hr/>
-          <p>Southern Printing & Graphics<br/>
+          <p><a target="_blank" rel="noopener noreferrer" href="http://www.southernprintingandgraphics.com/">Southern Printing & Graphics</a><br/>
             5424 Hixson Pike<br/>
             Hixson, TN 37343<br/>
             <br/>

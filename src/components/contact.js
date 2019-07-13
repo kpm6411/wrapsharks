@@ -19,7 +19,7 @@ class Contact extends Component {
             <h2>Contact Us</h2>
             <hr/>
             <div className="contact-list">
-              <p>Southern Printing & Graphics<br/>
+              <p><a target="_blank" rel="noopener noreferrer" href="http://www.southernprintingandgraphics.com/">Southern Printing & Graphics</a><br/>
                 5424 Hixson Pike<br/>
                 Hixson, TN 37343<br/>
                 <br/>
